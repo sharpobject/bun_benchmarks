@@ -1,0 +1,13 @@
+{
+  "versions": [
+  ],
+  "benchmarks": [
+    "snippets/headers.mjs"
+  ],
+  "benschmarks": [
+    "snippets/encode-into.mjs",
+    "snippets/crypto-randomUUID.mjs",
+    "snippets/native-overhead.mjs",
+    "snippets/headers.mjs"
+  ]
+}
