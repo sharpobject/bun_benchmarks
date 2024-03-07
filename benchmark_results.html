@@ -1,0 +1,97 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Benchmark Results</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .graph-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .graph {
+                width: 30%;
+                margin: 10px;
+                text-align: center;
+            }
+            .graph img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Benchmark Results</h1>
+        <div class="graph-container">
+    
+    <div class="graph">
+        <h3>Geometric mean benchmark time</h3>
+        <img src="graphs/geometric_mean.png" alt="Geometric mean">
+    </div>
+    
+            <div class="graph">
+                <h3>new Headers</h3>
+                <img src="graphs/snippets/headers.mjs/new Headers.png" alt="new Headers">
+            </div>
+            
+            <div class="graph">
+                <h3>new Headers([])</h3>
+                <img src="graphs/snippets/headers.mjs/new Headers([]).png" alt="new Headers([])">
+            </div>
+            
+            <div class="graph">
+                <h3>new Headers({})</h3>
+                <img src="graphs/snippets/headers.mjs/new Headers({}).png" alt="new Headers({})">
+            </div>
+            
+            <div class="graph">
+                <h3>new Headers(object)</h3>
+                <img src="graphs/snippets/headers.mjs/new Headers(object).png" alt="new Headers(object)">
+            </div>
+            
+            <div class="graph">
+                <h3>new Headers(hugeObject)</h3>
+                <img src="graphs/snippets/headers.mjs/new Headers(hugeObject).png" alt="new Headers(hugeObject)">
+            </div>
+            
+            <div class="graph">
+                <h3>Header.get</h3>
+                <img src="graphs/snippets/headers.mjs/Header.get.png" alt="Header.get">
+            </div>
+            
+            <div class="graph">
+                <h3>Header.set (standard)</h3>
+                <img src="graphs/snippets/headers.mjs/Header.set (standard).png" alt="Header.set (standard)">
+            </div>
+            
+            <div class="graph">
+                <h3>Header.set (non-standard)</h3>
+                <img src="graphs/snippets/headers.mjs/Header.set (non-standard).png" alt="Header.set (non-standard)">
+            </div>
+            
+            <div class="graph">
+                <h3>Headers.toJSON</h3>
+                <img src="graphs/snippets/headers.mjs/Headers.toJSON.png" alt="Headers.toJSON">
+            </div>
+            
+            <div class="graph">
+                <h3>Object.fromEntries(headers.entries())</h3>
+                <img src="graphs/snippets/headers.mjs/Object.fromEntries(headers.entries()).png" alt="Object.fromEntries(headers.entries())">
+            </div>
+            
+            <div class="graph">
+                <h3>Object.fromEntries(headers)</h3>
+                <img src="graphs/snippets/headers.mjs/Object.fromEntries(headers).png" alt="Object.fromEntries(headers)">
+            </div>
+            
+        </div>
+    </body>
+    </html>
+    
